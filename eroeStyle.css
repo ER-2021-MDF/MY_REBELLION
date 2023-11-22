@@ -1,0 +1,176 @@
+@media only screen and (min-width: 1024px){
+
+body{
+	background-color:red;
+}
+
+p{
+	margin-bottom:-2%;
+}
+
+div{
+	margin-top:1%;
+}
+
+section{
+	margin-top:1%;
+}
+
+.copertina{
+
+	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 100%);
+	height:30%;
+	width:100%;
+	margin-top:-1%;
+
+}
+
+.copertina::after{
+	background-color:black;
+}
+
+.immagine{
+	
+	width:20%;
+	margin-left:40%;
+	height:100%;
+	background-color:white;
+	border-radius:50%;
+	
+}
+
+.nome{
+	font-size: 28px;
+    color: red;
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+    margin-top: -2%;
+    border-radius: 10pt 10pt;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px black;
+
+}
+
+.presentazione{
+	background-color:yellow;
+	width:100%;
+	height:10%;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-style: italic;
+	font-size:x-large;
+	margin-top: 2%;
+}
+
+.compitiContainer{
+	position:absolute;
+	left:3%;
+	width:94%;
+	height:90%;
+	margin-bottom:5%;
+	overflow:hidden;
+	background-color:red;
+	font-family: "Oswald", sans-serif;
+	font-size: 2em;
+	letter-spacing: 0;
+	text-align: start;
+	color:red;
+	writing-mode: vertical-rl;
+	text-orientation: upright;
+}
+
+.compitiTitolo{
+
+	float:left;
+	height:98%;
+	width:32%;
+	background-color:black;
+	display:inline-block;
+	-webkit-backface-visibility:hidden;
+	backface-visibility:hidden;
+	perspective: 1000px;
+	transform-style: preserve-3d;
+	box-shadow: 0px 0px 10px 1px black;
+
+}
+
+.mission1{
+  position:absolute;
+  left:1%;
+  cursor: pointer;
+}
+
+.mission2{
+  position:absolute;
+  left:34%;
+  cursor: pointer;  
+}
+
+.mission3{
+  position:absolute;
+  left:67%;
+  cursor: pointer;
+}
+
+.compitiTitoloBack{
+height:98%;
+width:32%;
+background-color:black;
+-webkit-backface-visibility:hidden;
+backface-visibility:hidden;
+perspective: 1000;
+transform-style: preserve-3d;
+box-shadow: 0px 0px 10px 1px black;
+}
+
+.mission1b{
+  position:absolute;
+  transform: rotateY(180deg);
+  left:1%;
+  cursor: pointer;
+}
+
+.mission2b{
+  position:absolute;
+  left:34%;
+  cursor: pointer;
+  transform: rotateY(180deg);  
+}
+
+.mission3b{
+  position:absolute;
+  left:67%;
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.titolo2{
+  position:absolute;
+  top:5%;
+  left:10%;
+  width:80%;
+  height:10%;
+  overflow:hidden;
+  text-align:center;
+  font-family: "Oswald", sans-serif;
+  font-size: 1em;
+  writing-mode:horizontal-tb;
+  letter-spacing: 0;
+}
+
+.descrizione{
+  position:absolute;
+  top:20%;
+  left:10%;
+  width:80%;
+  height:75%;
+  overflow:hidden;
+  text-align:center;
+  font-family: "Oswald", sans-serif;
+  font-size: 0.5em;
+  writing-mode:horizontal-tb;
+  letter-spacing: 0;
+}
+
+}
+

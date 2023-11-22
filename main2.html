@@ -1,0 +1,49 @@
+<html>
+
+<head>
+
+	<title>MY GESTAPO</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+	<script src="rivolta.js"></script>
+	<!-- Google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	
+	<link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=VT323&display=swap" rel="stylesheet">
+	
+	<!-- local style-->
+	<link rel="stylesheet" href="css2.css" >
+
+</head>
+
+
+<body onload="controlloMediaQuery()">
+
+<section class="compitiContainer">
+
+	<div id="compito1Titolo" class="compitiTitolo">
+		<div id="titolo" class="titolo2"></div>
+		<div id="descrizione" class="descrizione"></div>
+		<div id="foto" class="foto">
+			<div id="foto2" class="foto2"></div>
+		</div>
+		<div id="testoSfida" class="descrizione2"></div>
+		<div class="password">
+			<div id="inputIndizio" class="indizio"></div>
+			<div id="casella" class="casella">
+				<input id="passwordInput" class="passwordInput"></input>
+				<button id="buttonInput" class="buttonInput" onclick="sbloccaSfida(passwordInput.value)">OK</button>
+			</div>
+		</div>
+	</div>
+
+
+</section>
+
+</body>
+
+</html>

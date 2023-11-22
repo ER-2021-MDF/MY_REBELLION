@@ -1,0 +1,232 @@
+@media only screen and (max-width: 767px){
+
+body{
+	background-color:black;
+	min-width: 353px;
+	max-width: 760px;
+	overflow-X:hidden;
+	position:relative;
+}
+
+p{
+	margin-bottom:-2%;
+}
+
+div{
+	margin-top:1%;
+}
+
+section{
+	margin-top:1%;
+}
+
+.compitiContainer{
+    height: -webkit-fill-available;
+    width: 100%;
+    top: 1%;
+    display: inline-block;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+.foto{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+	visibility: hidden;
+	position: relative;
+	float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+}
+
+.foto2{
+	background-color: black;
+	visibility: hidden;
+    width: 100%;
+	height: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+.uno{
+	background-image: url(marconi.png);
+}
+
+.due{
+	background-image: url(marconi.png);
+}
+
+.tre{
+	background-image: url(marconi.png);
+}
+
+.quattro{
+	background-image: url(marconi.png);
+}
+
+.cinque{
+	background-image: url(marconi.png);
+}
+
+.compitiTitolo{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background-color: black;
+    font-family: 'DotGothic16', sans-serif;
+    margin-bottom:5%;
+    font-size: 4em;
+    color:green;
+    text-align: center;
+
+}
+
+.titolo2{
+	float: left;
+    margin-top: 5%;
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 0.7em;
+    writing-mode: horizontal-tb;
+    letter-spacing: 0;
+    line-height: 1em;
+	width: 100%;
+}
+
+.titolo2::after{
+	content: "|";
+	background-color: green;
+	color: green;
+	animation: blink 0.3s infinite;
+	animation-fill-mode: forwards;
+	margin-left:-0.1em;
+}
+
+.descrizione{
+	float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    overflow: hidden;
+    text-align: center;
+    font-family: 'VT323', monospace;
+    font-size: 0.3em;
+    writing-mode: horizontal-tb;
+    letter-spacing: 0;
+	font-style: italic;
+}
+
+.descrizione::after{
+	content: "|";
+	background-color: green;
+	color: green;
+	animation: blink 0.3s infinite;
+	animation-fill-mode: forwards;
+	margin-left:-0.1em;
+}
+
+.descrizione2{
+	float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 80%;
+    overflow: hidden;
+    text-align: justify;
+    font-family: 'VT323', monospace;
+    font-size: 0.27em;
+    writing-mode: horizontal-tb;
+    letter-spacing: 0;
+}
+
+.descrizione2::after{
+	content: "|";
+	background-color: green;
+	color: green;
+	animation: blink 0.3s infinite;
+	animation-fill-mode: forwards;
+	margin-left:-0.1em;
+}
+
+.password{
+	width: 100%;
+	float: left;
+	margin-top: 5%;
+}
+
+.indizio{
+    text-align: justify;
+    font-family: 'VT323', monospace;
+    font-size: 1em;
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+}
+
+.indizio::after{
+	content: "|";
+	background-color: green;
+	color: green;
+	animation: blink 0.3s infinite;
+	animation-fill-mode: forwards;
+	margin-left:-0.1em;
+}
+
+.password{
+	font-family: 'Barlow Condensed', sans-serif;
+	font-size: 0.3em;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.casella{
+	padding-bottom:10%;
+	margin-top: 25%;
+}
+
+.passwordInput{
+	width:90%;
+	height: 10%;
+	border: 1px solid;
+	border-color: green;
+	font-family: 'DotGothic16', sans-serif;
+	font-family: courier;
+	caret-color: green;
+	background-color: rgba(28, 28, 28, 1);
+	color: green;
+}
+
+.buttonInput{
+	margin-top:2%;
+	width:20%;
+	border: 1px solid;
+	border-color: green;
+	font-family: 'DotGothic16', sans-serif;
+	font-size:1em;
+	font-weight:bold;
+	background-color: rgba(28, 28, 28, 1);
+	color: green;
+}
+
+.buttonInput:hover{
+	color:black;
+	background-color:green;
+}
+
+.endCursor::after{
+	content:"";
+	}
+
+@keyframes blink {
+	from {background-color: green; color: green}
+	to { background-color: black; color: black;}
+
+}
+
+}

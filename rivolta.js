@@ -71,12 +71,12 @@ function sbloccaSfida(sfida){
 		// ----- PER LE SFIDE ----- 
 		
 		case "3406966054":
-			title = "CONTROLLA IL PERIMETRO";
+			title = "SEMINA LE GUARDIE";
 			
 			img = "";
 			
-			desc = "Senza armi non potranno pi\u00F9 minacciarci. Facciamo saltare in aria il loro arsenale, "+
-					"piazziamo delle bombe lungo tutto il perimetro senza farci prendere";
+			desc = "I tuoi compagni sono riusciti ad intrufolarsi nell’arsenale nemico. Ora però scappa prima che le guardie nemiche ti prendano "+
+				"e ottengano nuovamente le loro armi.";
 			
 			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. Uno di voi deve stare PER TUTTO IL TEMPO " +
 					"a riprendervi in un punto abbastanza rialzato da potervi filmare per l\u0027interno tragitto. "+
@@ -87,7 +87,7 @@ function sbloccaSfida(sfida){
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";			
 		break;
 		
-		case "geunagiuseppe":
+		case "bernardipietro":
 			title = "IL DISCORSO";
 			
 			img = "";
@@ -99,7 +99,7 @@ function sbloccaSfida(sfida){
 			indizio = "Ti verr\u00E0 fornito alla fine della sfida";
 		break;
 		
-		case "9:0012:00":
+		case "rapisardar.":
 			title = "TRIBUNALE";
 			
 			img = "";
@@ -125,7 +125,7 @@ function sbloccaSfida(sfida){
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
 		
-		case "gruppogiovanidellaparrocchiamadonnadifatimadipinerolo":
+		case "buoncammino!":
 			title = "IL PALAZZO";
 			
 			img = "";
@@ -137,7 +137,7 @@ function sbloccaSfida(sfida){
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
 			
-		case "8":
+		case "5":
 			title = "LA PIAZZA";
 			
 			img = "";
@@ -174,7 +174,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "Numero di colonne dentro al duomo (no paraste)";
+			indizio = "Numero di guglie visibili sulla facciata del duomo";
 			
 			immagine = true;
 		break;
@@ -188,7 +188,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "società italiana degli autori ed editori, orario lunedì - venerdì dalle … alle …";
+			indizio = "TOMAN VIORICA …";
 			
 			immagine = true;
 		break;
@@ -202,7 +202,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "Via Trieste 8, cognomi del campanello 3P (lato sinistro)";
+			indizio = "Via Trieste 8, cognomi del campanello 3P lato destro";
 			
 			immagine = true;
 		break;
@@ -216,7 +216,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "Sentiero laudato sii tappa 1, realizzata dal ...";
+			indizio = "Sentiero laudato sii tappa 1. “Ammira, ascolta, rifletti ...”";
 			
 			immagine = true;
 			
@@ -225,22 +225,22 @@ function sbloccaSfida(sfida){
 		// ----- PER IL TUTORIAL ----- 
 		
 		case "start":
-			title = "MY GESTAPO"
+			title = "MY REBELLION"
 			
 			img = "";
 			
-			desc = "Un solo regno";
+			desc = "Un solo popolo";
 			
 			text = "Grazie a questa applicazione, la base pu\u00F2 comunicare direttamente con i soldati sul campo. In alto troverai sempre il titolo della missione, "+
-					"(MY GESTAPO per adesso), subito sotto la storia collegata a questa missione (ora \'un solo regno\') e al posto di questo testo troverai sempre "+
+					"(MY REBELLION per adesso), subito sotto la storia collegata a questa missione (ora \'un solo regno\') e al posto di questo testo troverai sempre "+
 					"le indicazioni per portare a termine la missione. Infine sotto hai la possibilit\u00E0 di mettere una parola d'odrine che ti verr\u00E0 fornita "+
 					"tramite suggerimento o come ricompensa e ti servir\u00E0 per avanzare alla missione successiva."
 					
-			indizio = "Per iniziare digita Batty";
+			indizio = "Per iniziare digita Pagliaccio";
 			
 			break;
 			
-		case "batty":
+		case "pagliaccio":
 			alert("PASSWORD ERRATA");
 			
 			title = "ERRORE";
@@ -253,7 +253,7 @@ function sbloccaSfida(sfida){
 					"ma non preoccuparti: basta inserire l'ultima password che hai ottenuto e tornerai al punto di prima. Facciamo un esempio: con la password suggerita "+
 					"qua sotto tornerai alla pagina precedente. Fai attenzione: il tutorial \u00E8 finito, da adesso inizia la missione!";
 			
-			indizio = "Scrivi start e premi OK, poi dopo non scrivere Batty ma inserisci la password che vi \u00E8 stata data sul biglietto";
+			indizio = "Scrivi start e premi OK, poi dopo non scrivere Pagliaccio ma inserisci la password che vi \u00E8 stata data sul biglietto";
 			
 			break;
 			

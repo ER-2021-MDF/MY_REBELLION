@@ -71,18 +71,22 @@ function sbloccaSfida(sfida){
 		// ----- PER LE SFIDE ----- 
 		
 		case "arsenale":
-			title = "CORRI";
+			title = "SEMINA LE GUARDIE";
 			
 			img = "";
 			
 			desc = "Senza armi non potranno pi\u00F9 minacciarci. Facciamo saltare in aria il loro arsenale, "+
 					"piazziamo delle bombe lungo tutto il perimetro senza farci prendere";
+				" I tuoi compagni sono riusciti ad intrufolarsi nell’arsenale nemico. Ora però scappa prima  "+
+					"che le guardie nemiche ti prendano e ottengano nuovamente le loro armi";
 			
-			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. Il cameramen deve stare PER TUTTO IL TEMPO " +
+			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. Uno di voi deve stare PER TUTTO IL TEMPO " +
 					"a riprendervi in un punto abbastanza rialzato da potervi filmare per l\u0027interno tragitto. "+
-					"I componenti della squadra \(escluso il cameraman\) faranno un giro a testa a mo di staffetta. "+
+					"I componenti della squadra faranno un giro a testa a mo di staffetta, anche chi è stato scelto per filmare. "+
 					"Il video serve a testimoniare che non bariate e a calcolare il tempo impiegato. "+
 					"Se barate lo fate di nuovo :)";
+
+			
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";			
 		break;
@@ -213,22 +217,22 @@ function sbloccaSfida(sfida){
 		// ----- PER IL TUTORIAL ----- 
 		
 		case "start":
-			title = "MY GESTAPO"
+			title = "MY REBELLION"
 			
 			img = "";
 			
-			desc = "Un solo regno";
+			desc = "Un solo popolo";
 			
 			text = "Grazie a questa applicazione, la base pu\u00F2 comunicare direttamente con i soldati sul campo. In alto troverai sempre il titolo della missione, "+
-					"(MY GESTAPO per adesso), subito sotto la storia collegata a questa missione (ora \'un solo regno\') e al posto di questo testo troverai sempre "+
+					"(MY REBELLION per adesso), subito sotto la storia collegata a questa missione (ora \'un solo regno\') e al posto di questo testo troverai sempre "+
 					"le indicazioni per portare a termine la missione. Infine sotto hai la possibilit\u00E0 di mettere una parola d'odrine che ti verr\u00E0 fornita "+
 					"tramite suggerimento o come ricompensa e ti servir\u00E0 per avanzare alla missione successiva."
 					
-			indizio = "Per iniziare digita Batty";
+			indizio = "Per iniziare digita Pagliaccio";
 			
 			break;
 			
-		case "batty":
+		case "pagliaccio":
 			alert("PASSWORD ERRATA");
 			
 			title = "ERRORE";
@@ -241,7 +245,7 @@ function sbloccaSfida(sfida){
 					"ma non preoccuparti: basta inserire l'ultima password che hai ottenuto e tornerai al punto di prima. Facciamo un esempio: con la password suggerita "+
 					"qua sotto tornerai alla pagina precedente. Fai attenzione: il tutorial \u00E8 finito, da adesso inizia la missione!";
 			
-			indizio = "Scrivi start e premi OK, poi dopo non scrivere Batty ma inserisci la password che vi \u00E8 stata data sul biglietto";
+			indizio = "Scrivi start e premi OK, poi dopo non scrivere Pagliaccio ma inserisci la password che vi \u00E8 stata data sul biglietto";
 			
 			break;
 			

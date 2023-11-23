@@ -78,35 +78,35 @@ function sbloccaSfida(sfida){
 			desc = "I tuoi compagni sono riusciti ad intrufolarsi nell’arsenale nemico. Ora però scappa prima che le guardie nemiche ti prendano "+
 				"e ottengano nuovamente le loro armi.";
 			
-			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. Uno di voi deve stare PER TUTTO IL TEMPO " +
-					"a riprendervi in un punto abbastanza rialzato da potervi filmare per l\u0027interno tragitto. "+
-					"I componenti della squadra faranno un giro a testa a mo di staffetta, anche chi è stato scelto per filmare. "+
-					"Il video serve a testimoniare che non bariate e a calcolare il tempo impiegato. "+
-					"Se barate lo fate di nuovo :)";
+			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. I componenti della squadra faranno un giro a testa a mo di staffetta. "+
+				"Se barate lo fate di nuovo :) ";
+;
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";			
 		break;
 		
 		case "bernardipietro":
-			title = "IL DISCORSO";
+			title = "IL GIUSTO APPOGGIO";
 			
 			img = "";
 		
 			desc = "Per vincere non serve solo la forza ma anche l\u0027appoggio del popolo";
 		
-			text = "Scrivi una poesia con rima baciata al sovrano, minimo 16 versi usando le parole: intelligenza, maest\u00E0, segreto, tarallo, scafazzare";
+			text = "Mettere a terra al massimo il seguente numero di mani/piedi e altre parti del corpo a terra. Una persona dovrà fare le foto: ";
 			
 			indizio = "Ti verr\u00E0 fornito alla fine della sfida";
 		break;
 		
 		case "rapisardar.":
-			title = "TRIBUNALE";
+			title = "IL DISCORSO";
 			
 			img = "";
 		
-			desc = "Descrizione da scrivere";
+			desc = "Una parola vale pi\u00f9 di mille azioni. O forse era il contrario. Meglio un culo gelato che un gelato nel culo. No, neanche questa. " +
+				"Scrivi tu allora";
 		
-			text = "Prova da scrivere";
+			text = "Scrivi una poesia con rima baciata sul popolo di 14 versi, usando le parole: comunitroia, finocchio, segreto, tarallo, scafazzare, "+
+				"incapace circonvenuto, liceo matematico ";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
@@ -132,7 +132,12 @@ function sbloccaSfida(sfida){
 		
 			desc = "Solo chi \u00E8 pronto al sacrificio pu\u00F2 aspirare a diventare un leader";
 		
-			text = "Prova da scirvere";
+			text = "Come da tradizione, ogni leader che si rispetti e che ambisca a governare deve dimostrare la propria forza e di essere disposto "+
+				"a sacrificarsi. La tradizione vuole che venga quindi offerta in sacrificio una parte di s\u00E8. Ma non siamo barbari, niente taglio "+
+				"delle dita o delle orecchie: una ceretta ad un uomo andrà più che bene. A seguire, chi non ha preso parte alla ceretta, "+
+				"deve sottoporsi comunque a un altro rito d\u0027iniziazione: una ragazza dovrà sculacciare in modo divertente un ragazzo. "+
+				"Ovviamente filmato cos\u00EC da potervi ricattare in futuro quando sarete personaggi famosi :) ";
+";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
@@ -144,7 +149,8 @@ function sbloccaSfida(sfida){
 		
 			desc = "Io sono la voce del popolo";
 		
-			text = "Prova da scirvere";
+			text = "Intervista un uomo che non conosci e chiedigli qual \u00E8 secondo lui il miglior metodo di depilazione, e perch\u00E8. " +
+				"Il tutto ovviamente filmato";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;

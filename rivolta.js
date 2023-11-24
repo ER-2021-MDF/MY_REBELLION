@@ -78,7 +78,8 @@ function sbloccaSfida(sfida){
 			desc = "I tuoi compagni sono riusciti ad intrufolarsi nell’arsenale nemico. Ora però scappa prima che le guardie nemiche ti prendano "+
 				"e ottengano nuovamente le loro armi.";
 			
-			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. I componenti della squadra faranno un giro a testa a mo di staffetta. "+
+			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. "+
+				"I componenti della squadra faranno un giro a testa a mo di staffetta. "+
 				"Se barate lo fate di nuovo :) ";
 ;
 			
@@ -92,7 +93,10 @@ function sbloccaSfida(sfida){
 		
 			desc = "Per vincere non serve solo la forza ma anche l\u0027appoggio del popolo";
 		
-			text = "Mettere a terra al massimo il seguente numero di mani/piedi e altre parti del corpo a terra. Una persona dovrà fare le foto: ";
+			text = "Mettere a terra al massimo il seguente numero di mani/piedi e altre parti del corpo a terra. Una persona dovrà fare le foto: +
+				"- 2 PIEDI, UN GOMITO"+
+				"- 1 PIEDE, 3 GINOCCHIA"+
+				"- 6 MANI, 2 PIEDI";
 			
 			indizio = "Ti verr\u00E0 fornito alla fine della sfida";
 		break;
@@ -102,11 +106,10 @@ function sbloccaSfida(sfida){
 			
 			img = "";
 		
-			desc = "Una parola vale pi\u00f9 di mille azioni. O forse era il contrario. Meglio un culo gelato che un gelato nel culo. No, neanche questa. " +
-				"Scrivi tu allora";
+			desc = "Meglio un culo gelato che un gelato nel culo. No forse non era cos\u00EC. Scrivi tu dai";
 		
-			text = "Scrivi una poesia con rima baciata sul popolo di 14 versi, usando le parole: comunitroia, finocchio, segreto, tarallo, scafazzare, "+
-				"incapace circonvenuto, liceo matematico ";
+			text = "Scrivi una poesia con rima baciata sul popolo di 14 versi, usando le parole: "+
+				"comunitroia, finocchio, segreto, tarallo, scafazzare, incapace circonvenuto, liceo matematico ";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
@@ -118,14 +121,14 @@ function sbloccaSfida(sfida){
 		
 			desc = "Noi siamo ovunque";
 		
-			text = "Spiare il nemico in questa guerra \u00E8 un\u0027arte fondamentale. Cos\u00EC come lo sono i travestimenti. Sappiamo che un informatore nemico si trova da Jasmine. "+
+			text = "Spiare il nemico in questa guerra \u00E8 un\u0027arte fondamentale. Cos\u00EC come lo sono i travestimenti. Sappiamo che un informatore nemico si trova da Yasmine. "+
 					"Uno di voi si avvolger\u00E0 nella carta stagnola e si far\u00E0 passare per un kebab arrotolato. Andate quindi da Yasmine e fatevi fotografare DENTRO al "+
 					"locale con il travestimento addosso. Sulla stagnola scrivete \'SENZA PICCANTE, SENZA CIPOLLA, SENZA CARNE E SENZA IMPASTO\'";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
 		
-		case "buoncammino!":
+		case "buoncammino":
 			title = "IL PALAZZO";
 			
 			img = "";
@@ -136,7 +139,7 @@ function sbloccaSfida(sfida){
 				"a sacrificarsi. La tradizione vuole che venga quindi offerta in sacrificio una parte di s\u00E8. Ma non siamo barbari, niente taglio "+
 				"delle dita o delle orecchie: una ceretta ad un uomo andrà più che bene. A seguire, chi non ha preso parte alla ceretta, "+
 				"deve sottoporsi comunque a un altro rito d\u0027iniziazione: una ragazza dovrà sculacciare in modo divertente un ragazzo. "+
-				"Ovviamente filmato cos\u00EC da potervi ricattare in futuro quando sarete personaggi famosi :) ";
+				"Ovviamente filmato cos\u00EC da potervi ricattare in futuro quando sarete personaggi famosi ";
 ";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
@@ -216,7 +219,7 @@ function sbloccaSfida(sfida){
 		case "xpalazzo":
 			title = "IL PALAZZO";
 			
-			img = "palazzo.png";
+			img = "duomo.png";
 		
 			desc = "";
 		

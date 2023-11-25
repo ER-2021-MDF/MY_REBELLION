@@ -158,7 +158,7 @@ function sbloccaSfida(sfida){
 		break;
 		
 		// ----- PER I LUOGHI ----- 
-		case "xarsenale":
+		case "fortnite":
 			title = "L\u0027ARSENALE";
 			
 			img = "arsenale.png";
@@ -173,7 +173,7 @@ function sbloccaSfida(sfida){
 			
 		break;
 		
-		case "xpiazza":
+		case "finocchio":
 			title = "LA PIAZZA";
 			
 			img = "duomo.png";
@@ -187,7 +187,7 @@ function sbloccaSfida(sfida){
 			immagine = true;
 		break;
 		
-		case "xtribunale":
+		case "alessiabionda":
 			title = "IL TRIBUNALE";
 			
 			img = "tribunale.png";
@@ -201,7 +201,7 @@ function sbloccaSfida(sfida){
 			immagine = true;
 		break;
 		
-		case "xmercato":
+		case "svegliadinoemi":
 			title = "IL MERCATO";
 			
 			img = "mercato.png";
@@ -215,7 +215,7 @@ function sbloccaSfida(sfida){
 			immagine = true;
 		break;
 		
-		case "xpalazzo":
+		case "donpedro":
 			title = "IL PALAZZO";
 			
 			img = "palazzo.png";
@@ -230,7 +230,7 @@ function sbloccaSfida(sfida){
 
 		break;
 
-		case "xmarconi":
+		case "fiordaliso":
 			title = "LA RIUNIONE";
 			
 			img = "marconi2.png";
@@ -242,6 +242,19 @@ function sbloccaSfida(sfida){
 			indizio = "Targa commemorativa quarto cognome e nome colonna sinistra";
 			
 			immagine = true;
+		break;
+
+		case "edatantochenonscopo":
+			title = "VITTORIA"
+			
+			img = "";
+			
+			desc = "Fine";
+			
+			text = "Le missioni sono finite, torna subito alla base"
+					
+			indizio = "";
+
 		break;
 		
 		// ----- PER IL TUTORIAL ----- 

@@ -228,10 +228,12 @@ function sbloccaSfida(sfida){
 			
 			immagine = true;
 
+		break;
+
 		case "xmarconi":
 			title = "LA RIUNIONE";
 			
-			img = "marcconi2.png";
+			img = "marconi2.png";
 		
 			desc = "";
 		

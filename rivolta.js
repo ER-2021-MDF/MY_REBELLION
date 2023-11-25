@@ -239,7 +239,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "Targa commemorativa quarto cognome e nome colonna sinistra”";
+			indizio = "Targa commemorativa quarto cognome e nome colonna sinistra";
 			
 			immagine = true;
 		break;

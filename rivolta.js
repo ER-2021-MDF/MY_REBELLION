@@ -232,7 +232,7 @@ function sbloccaSfida(sfida){
 		case "xmarconi":
 			title = "LA RIUNIONE";
 			
-			img = "palazzo.png";
+			img = "marcconi2.png";
 		
 			desc = "";
 		

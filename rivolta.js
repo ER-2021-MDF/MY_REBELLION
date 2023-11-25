@@ -210,7 +210,7 @@ function sbloccaSfida(sfida){
 		
 			text = "";
 			
-			indizio = "Via Trieste 8, cognomi del campanello 3P lato destro";
+			indizio = "Via Trieste 8, cognomi del campanello 3P lato sinistro";
 			
 			immagine = true;
 		break;

@@ -75,13 +75,13 @@ function sbloccaSfida(sfida){
 			
 			img = "";
 			
-			desc = "I tuoi compagni sono riusciti ad intrufolarsi nell’arsenale nemico. Ora però scappa prima che le guardie nemiche ti prendano "+
+			desc = "I tuoi compagni sono riusciti ad intrufolarsi nell\u0027arsenale nemico. Ora però scappa prima che le guardie nemiche ti prendano "+
 				"e ottengano nuovamente le loro armi.";
 			
 			text = "Fai un giro completo del campo d\u0027erba di Piazza d\u0027Armi. "+
 				"I componenti della squadra faranno un giro a testa a mo di staffetta. "+
 				"Se barate lo fate di nuovo :) ";
-;
+
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";			
 		break;
@@ -93,7 +93,7 @@ function sbloccaSfida(sfida){
 		
 			desc = "Per vincere non serve solo la forza ma anche l\u0027appoggio del popolo";
 		
-			text = "Mettere a terra al massimo il seguente numero di mani/piedi e altre parti del corpo a terra. Una persona dovrà fare le foto: +
+			text = "Mettere a terra al massimo il seguente numero di parti del corpo a terra. Una persona dovrà fare le foto: +
 				"- 2 PIEDI, UN GOMITO"+
 				"- 1 PIEDE, 3 GINOCCHIA"+
 				"- 6 MANI, 2 PIEDI";
@@ -101,7 +101,7 @@ function sbloccaSfida(sfida){
 			indizio = "Ti verr\u00E0 fornito alla fine della sfida";
 		break;
 		
-		case "rapisardar.":
+		case "rapisardar":
 			title = "IL DISCORSO";
 			
 			img = "";
@@ -150,7 +150,7 @@ function sbloccaSfida(sfida){
 			
 			img = "";
 		
-			desc = "Io sono la voce del popolo";
+			desc = "Questa è la voce del popolo";
 		
 			text = "Intervista un uomo che non conosci e chiedigli qual \u00E8 secondo lui il miglior metodo di depilazione, e perch\u00E8. " +
 				"Il tutto ovviamente filmato";
@@ -177,7 +177,7 @@ function sbloccaSfida(sfida){
 		case "xpiazza":
 			title = "LA PIAZZA";
 			
-			img = "piazza.png";
+			img = "duomo.png";
 		
 			desc = "";
 		
@@ -219,16 +219,28 @@ function sbloccaSfida(sfida){
 		case "xpalazzo":
 			title = "IL PALAZZO";
 			
-			img = "duomo.png";
+			img = "palazzo.png";
 		
 			desc = "";
 		
 			text = "";
 			
-			indizio = "Sentiero laudato sii tappa 1. “Ammira, ascolta, rifletti ...”";
+			indizio = "Sentiero laudato sii tappa 1. “Ammira, ascolta, rifletti ... !”";
 			
 			immagine = true;
+
+		case "xmarconi":
+			title = "LA RIUNIONE";
 			
+			img = "palazzo.png";
+		
+			desc = "";
+		
+			text = "";
+			
+			indizio = "Targa commemorativa quarto cognome e nome colonna sinistra”";
+			
+			immagine = true;
 		break;
 		
 		// ----- PER IL TUTORIAL ----- 

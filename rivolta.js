@@ -83,7 +83,7 @@ function sbloccaSfida(sfida){
 				"Se barate lo fate di nuovo :) ";
 
 			
-			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";			
+			indizio = "Password: ti verr\u00E0 fornita alla fine della sfida";			
 		break;
 		
 		case "bernardipietro":
@@ -98,7 +98,7 @@ function sbloccaSfida(sfida){
 				"- 1 PIEDE, 3 GINOCCHIA"+
 				"- 6 MANI, 2 PIEDI";
 			
-			indizio = "Ti verr\u00E0 fornito alla fine della sfida";
+			indizio = "Password: ti verr\u00E0 fornita alla fine della sfida";
 		break;
 		
 		case "rapisardar":
@@ -111,7 +111,7 @@ function sbloccaSfida(sfida){
 			text = "Scrivi una poesia con rima baciata sul popolo di 14 versi, usando le parole: "+
 				"comunitroia, finocchio, segreto, tarallo, scafazzare, incapace circonvenuto, liceo matematico ";
 			
-			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
+			indizio = "Password: ti verr\u00E0 fornita alla fine della sfida";
 		break;
 		
 		case "marchesiellotrucco":
@@ -125,7 +125,7 @@ function sbloccaSfida(sfida){
 					"Uno di voi si avvolger\u00E0 nella carta stagnola e si far\u00E0 passare per un kebab arrotolato. Andate quindi da Yasmine e fatevi fotografare DENTRO al "+
 					"locale con il travestimento addosso. Sulla stagnola scrivete \'SENZA PICCANTE, SENZA CIPOLLA, SENZA CARNE E SENZA IMPASTO\'";
 			
-			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
+			indizio = "Password: ti verr\u00E0 fornita alla fine della sfida";
 		break;
 		
 		case "buoncammino":
@@ -141,7 +141,7 @@ function sbloccaSfida(sfida){
 				"deve sottoporsi comunque a un altro rito d\u0027iniziazione: una ragazza dovrà sculacciare in modo divertente un ragazzo. "+
 				"Ovviamente filmato cos\u00EC da potervi ricattare in futuro quando sarete personaggi famosi ";
 			
-			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
+			indizio = "Password: ti verr\u00E0 fornita alla fine della sfida";
 		break;
 			
 		case "5":
@@ -154,7 +154,7 @@ function sbloccaSfida(sfida){
 			text = "Intervista un uomo che non conosci e chiedigli qual \u00E8 secondo lui il miglior metodo di depilazione, e perch\u00E8. " +
 				"Il tutto ovviamente filmato";
 			
-			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
+			indizio = "Password: ti verr\u00E0 fornita alla fine della sfida";
 		break;
 		
 		// ----- PER I LUOGHI ----- 

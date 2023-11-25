@@ -140,7 +140,6 @@ function sbloccaSfida(sfida){
 				"delle dita o delle orecchie: una ceretta ad un uomo andrà più che bene. A seguire, chi non ha preso parte alla ceretta, "+
 				"deve sottoporsi comunque a un altro rito d\u0027iniziazione: una ragazza dovrà sculacciare in modo divertente un ragazzo. "+
 				"Ovviamente filmato cos\u00EC da potervi ricattare in futuro quando sarete personaggi famosi ";
-";
 			
 			indizio = "Indizio: ti verr\u00E0 fornito alla fine della sfida";
 		break;
